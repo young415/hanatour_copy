@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media all and (max-width: 640px){
+	html{}
+	section{background: none;}
+	#header{max-width: 640px; width: 100%;background: url(../img/bnr_pc_sm_mobile.jpg);transition: all 0.1s ease-in}
+	.head_inner{margin: 0; width: 640px;}
+	.intro{display: none}
+	.intro ul{width: 40%; margin-right: 50px}
+	.intro ul li{font-size: 12px}
+	
+	.menu_icon{display: block; float: right; position: relative; top: 30px; right: 50px; cursor: pointer}
+	
+	h1{display: none}
+	
+	.nav{display: none}
+	
+	.slide_icon{display: none; position: absolute; left: 20px}
+	
+	#contents{max-width: 640px; width: 640px;transition: all 0.5s ease-in}
+	
+	.con_inner{width: 100%; margin-left: 20px}
+	.recommand{transition: all 0.5s ease; margin-top: 60px}
+	.recommand h2{text-align: left; font-size: 28px; font-weight: bold; margin-bottom: 20px}
+	.country{width: 90%; float: left; display: inline-block; border-bottom: 1px solid #eee; padding-bottom: 5px}
+	.country li{float: left; padding: 0; font-size: 22px; margin-right: 20px; cursor: pointer}
+	.country li:first-child{border: none; color: #e5236d; border-bottom: 3px solid #e5236d; padding-bottom: 8px;}
+	
+	.recommand_photo{width: 100%; display: flex; flex-flow: column wrap; justify-content: space-around; height: 450px; width: 500px; transition: all 0.3s linear}
+	.recommand_photo li{width: 150px; height: 130px; position: relative; border-radius: 10px; margin-bottom: 20px;cursor: pointer;}
+	.recommand_photo .one{background: url(../img/aca66401-287d-4c96-82be-eb9221afe908.jpg) no-repeat center center; background-size: cover;}
+	.recommand_photo .two{background: url(../img/b38c9008-2a35-4487-8b3b-2e6dd93e55cb.jpg) no-repeat center center; background-size: cover;}
+	.recommand_photo .three{background: url(../img/bd1232b8-1068-4394-89a5-cd1e5e4da80c.jpg) no-repeat center center; background-size: cover;}
+	.top{width: 30px; height: 40px; background: #e5236d; color: white; text-align: center; padding: 3px; box-sizing: border-box; margin-left: 15px;}
+	.top span{font-size: 25px; font-weight: bold}
+	.top p{display: none}
+	
+	.white_box{display: none;}
+	.m_recommand_title{color: ##000d17; display: inline-block; font-weight: bold; font-size: 20px; width: 300px; margin-top: -20px; cursor: pointer}
+	.m_recommand_title span{color: #e5236d; font-size: 23px; margin-top: 10px; display: block; cursor: auto}
+	
+	.m_banner{display: block; margin: 50px 0;}
+	.m_banner img{width: 90%; margin: 0 auto; border-radius: 10px; cursor: pointer}
+	
+	.best_seller{margin-top: 20px;height:500px;}
+	.best_seller h2{text-align: left; font-size: 28px; font-weight: bold; margin-bottom: 20px}
+	
+	.pre, .next, .sub_box{display: none}
+	.best_seller_photo{width: 100%; height: 320px; flex-flow: column wrap; align-content: space-between}
+	.best_seller_photo li{width: 200px; height: 150px; border-radius: 10px; cursor: pointer}
+	
+	.m_bestseller_title{display: block;}
+	.destination{color: #5b699c; margin-bottom: 5px}
+	.m_bestseller_title h3{font-size: 18px; margin-bottom: 5px}
+	.m_bestseller_title span{font-size: 14px; color: #777; margin-bottom: 5px; display: block}
+	.m_bestseller_title h2{font-size: 20px; color: #e5236d; cursor: auto}
+	.m_three{display: block}
+	.europe{margin-top: 3px}
+	
+	.zeusworld, .brochure, .question_area{display: none;}
+	
+	#footer{margin-top: 0; width: 100%; border-top: 1px solid #aaa;}
+	.foot_inner{width: 90%;}
+	.login{display: block; display: flex; justify-content: space-between; border-bottom: 1px solid #eee}
+	.login li{width: 33.33%; text-align: center;padding: 10px; border-right:1px solid #eee; cursor: pointer}
+	.login li:last-child{border-right: 0;}
+	
+}
